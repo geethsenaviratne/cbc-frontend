@@ -3,6 +3,7 @@ import { GoGraph } from "react-icons/go";
 import { FiBox } from "react-icons/fi";
 import { HiOutlineShoppingBag } from "react-icons/hi";
 import { FaUsers } from "react-icons/fa";
+import AdminProductsPage from "./admin/adminProductsPage";
 
 export default function AdminHomePage() {
   return (
@@ -41,7 +42,7 @@ export default function AdminHomePage() {
           <Routes path="/*">
             
             <Route path="dashboard" element={<h1 className="text-2xl font-bold">Dashboard</h1>} />
-            <Route path="products" element={<h1 className="text-2xl font-bold">Products</h1>} />
+            <Route path="products" element={<AdminProductsPage/>} />
             <Route path="orders" element={<h1 className="text-2xl font-bold">Orders</h1>} />
             <Route path="customers" element={<h1 className="text-2xl font-bold">Customers</h1>} />
 
