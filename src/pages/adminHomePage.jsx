@@ -63,7 +63,7 @@ export default function AdminHomePage() {
         </h1>
 
         <p className="text-gray-500 max-w-sm">
-          Please choose an option from the sidebar to continue.
+          Please choose an option from the sidebar to continue🙂.
         </p>
 
       </div>
